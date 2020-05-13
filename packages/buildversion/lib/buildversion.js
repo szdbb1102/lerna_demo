@@ -4,12 +4,14 @@ const getInfo = require('szdbb')
 module.exports = buildversion;
 
 class buildversion {
-  constructor() {}
+  constructor(fileName) {
+      this.fileName = fileName || "README.md"
+  }
   apply(compiler) {
     compiler.hooks.compilation.tap("FileListPlugin", (compilation) => {
       compiler.hooks.emit.tap("FileListPlugin", () => {
         let content = getInfo()
-        compilation.assets["README.md"] = {
+        compilation.assets[this.fileName] = {
           source() {
             return content;
           },

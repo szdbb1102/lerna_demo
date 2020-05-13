@@ -1,5 +1,5 @@
 {
-  "name": "buildversion",
+  "name": "webpack-buildversion-plugin",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "xuexin <xuexin@cloudwalk.cn>",
