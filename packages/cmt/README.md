@@ -1,11 +1,6 @@
-# `@xx/cmt`
-
-> TODO: description
-
 ## Usage
-
+```cmd
+npm i xxcmt -g
+xxcmt
 ```
-const cmt = require('@xx/cmt');
-
-// TODO: DEMONSTRATE API
-```
+then write your commit message or just type enter
