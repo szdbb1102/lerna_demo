@@ -28,6 +28,5 @@
   },
   "dependencies": {
     "rollup": "^2.7.3"
-  },
-  "gitHead": "dbdf57e567cd0d85dabc884d36d93485e88bd09d"
+  }
 }
