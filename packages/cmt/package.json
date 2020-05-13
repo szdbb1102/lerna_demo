@@ -1,6 +1,6 @@
 {
   "name": "xxcmt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "xuexin <xuexin@cloudwalk.cn>",
   "homepage": "https://github.com/szdbb1102/lerna_demo#readme",
@@ -14,6 +14,7 @@
     "test": "__tests__"
   },
   "files": [
+    "bin",
     "lib"
   ],
   "publishConfig": {
