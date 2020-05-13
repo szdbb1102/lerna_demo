@@ -1,8 +1,6 @@
 "use strict";
 const getInfo = require('szdbb')
 
-module.exports = buildversion;
-
 class buildversion {
   constructor(fileName) {
       this.fileName = fileName || "README.md"
@@ -23,3 +21,5 @@ class buildversion {
     });
   }
 }
+
+module.exports = buildversion;
