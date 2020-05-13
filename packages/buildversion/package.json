@@ -1,0 +1,29 @@
+{
+  "name": "buildversion",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "xuexin <xuexin@cloudwalk.cn>",
+  "homepage": "https://github.com/szdbb1102/lerna_demo#readme",
+  "license": "ISC",
+  "main": "lib/buildversion.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szdbb1102/lerna_demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/szdbb1102/lerna_demo/issues"
+  },
+  "dependencies": {
+    "szdbb": "^1.0.3"
+  }
+}
