@@ -3,5 +3,5 @@
 module.exports = testApp;
 
 function testApp() {
-    console.log('test')
+    console.log('test2')
 }
