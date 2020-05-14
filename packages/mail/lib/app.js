@@ -1,8 +1,11 @@
 var nodemailer = require("nodemailer");
+const fail = (error) => {
+  console.log("failed",error);
+  process.exit(1);
+};
 function sendEmail(config) {
   if(!config || !config.user||!config.pass||!config.title||!config.body){
-    console.log('配置不全')
-    process.exit(1)
+    fail('配置不全')
   }
   var transporter = nodemailer.createTransport({
     host: "smtp.163.com", // 设置服务
@@ -23,11 +26,11 @@ function sendEmail(config) {
 
   transporter.sendMail(mailOptions, function (err, info) {
     if (err) {
-      console.log(err);
+      fail(err)
       return;
     }
-
     console.log("发送成功");
+    process.exit(0)
   });
 }
 module.exports = sendEmail
