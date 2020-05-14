@@ -14,7 +14,6 @@ if (fs.existsSync(configPath)) {
   fail('未检测到mail.config.js');
 }
 try {
-  console.log(configObj.file || "xx");
   var body = fs.readFileSync(configObj.file || "./1.md");
   configObj.body = body.toString();
   send(configObj);
