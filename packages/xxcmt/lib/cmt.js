@@ -19,7 +19,7 @@ function cmt() {
     ])
     .then((v) => {
       let msg = v.msg || "nothing";
-      execSync(`git commit -m "${msg}"`);
+      execSync(`git commit -m '${msg}'`);
       execSync(`git push origin master`);
     });
 }
