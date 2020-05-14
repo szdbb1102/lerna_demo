@@ -6,6 +6,9 @@
   "homepage": "https://github.com/szdbb1102/lerna_demo#readme",
   "license": "ISC",
   "main": "lib/mail.js",
+  "bin": {
+    "xxmail": "./bin/index"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
