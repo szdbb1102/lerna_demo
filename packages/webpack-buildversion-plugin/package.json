@@ -24,6 +24,6 @@
     "url": "https://github.com/szdbb1102/lerna_demo/issues"
   },
   "dependencies": {
-    "szdbb": "^1.0.3"
+    "szdbb": "^0.0.2"
   }
 }
