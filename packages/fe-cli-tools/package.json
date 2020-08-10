@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "xxtools": "./bin/index"
+    "xxtools": "./bin/index", 
+    "xxnote": "./bin/index"
   },
   "files": [
     "bin",
