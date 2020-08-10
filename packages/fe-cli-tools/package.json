@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": {
     "xxtools": "./bin/index",
-    "xxnote": "./bin/index"
+    "xxnote": "./bin/note"
   },
   "files": [
     "bin",
