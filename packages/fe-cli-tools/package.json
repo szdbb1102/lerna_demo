@@ -1,10 +1,10 @@
 {
   "name": "fe-cli-tools",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "xxtools": "./bin/index", 
+    "xxtools": "./bin/index",
     "xxnote": "./bin/index"
   },
   "files": [
