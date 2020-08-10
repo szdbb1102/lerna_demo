@@ -10,6 +10,8 @@
   "files": [
     "bin",
     "index.js",
+    "note.js",
+    "postinstall.js",
     "index.html"
   ],
   "scripts": {
