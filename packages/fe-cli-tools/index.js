@@ -11,5 +11,5 @@ function open (url) {
   console.log(url, `${OPEN} ${url}`)
   exec(`${OPEN} ${url}`)
 }
-const INDEX = path.resolve(fs.realpathSync(process.cwd()), 'index.html')
+const INDEX = path.resolve(__dirname, 'index.html')
 open(INDEX)
