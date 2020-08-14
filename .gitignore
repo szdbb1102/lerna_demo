@@ -1,5 +1,6 @@
 node_modules
 jsStudy/
+.vscode
 .npmrc
 mail.config.js
 1.md
