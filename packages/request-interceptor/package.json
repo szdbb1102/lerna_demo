@@ -1,6 +1,6 @@
 {
   "name": "request-interceptor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "请求拦截器",
   "main": "index.js",
   "scripts": {
