@@ -1,13 +1,13 @@
 {
   "name": "xxnovel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "bin": {
     "nv": "./bin/index"
   },
   "files": [
-    "bin", 
+    "bin",
     "novel.txt"
   ],
   "scripts": {
